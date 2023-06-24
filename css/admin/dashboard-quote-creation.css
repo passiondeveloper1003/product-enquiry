@@ -1,0 +1,330 @@
+#saveSendQuote > div > div.wdm-enquiry-form{
+	width: 65%;
+    border: none;
+    float: left;
+}
+
+.form_input.btn_div {
+    float: right;
+    width: 34%;
+    padding-top: 15px;
+}
+
+.wdmquoteup-err-display{
+	display: none;
+}
+
+.mpe_form_input {
+    position: relative;
+}
+
+.mpe-left.wdm-enquiry-form-label {
+	width: 20%;
+	float: left;
+    /*top: 50%;*/
+    transform: translateY(28%);
+}
+
+.mpe-right {
+	width: 80%;
+	float: right;
+}
+
+.quoteup-pdf-language {
+    position: relative;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.2);
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.admin-quote-table {
+    border: 1px solid rgba(0,0,0,.1);
+    margin: 0 -1px 24px 0;
+    text-align: left;
+    width: 100%;
+    border-collapse: separate;
+    border-radius: 5px;
+}
+
+.admin-quote-table  th, .admin-quote-table  td {
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 15px;
+}
+
+div #text, #txt {
+    visibility: hidden;
+    color: #2081b9;
+    margin-top: 1%;
+    font-weight: bold;
+    /*text-align: center;*/
+}
+
+.quote-product-qty .qty {
+    width: 4em;
+}
+
+.quote-product-new-price .wdm-prod-price {
+    width: 6em;
+}
+
+.quoteup-show-price-wrapper, .quoteup-show-price-diff-wrapper {
+    display: inline;
+}
+
+.quoteup-show-price-diff-wrapper {
+    margin-left: 22px;
+}
+
+#btnQuoteSend {
+    display: none;
+}
+
+#wdm_nonce_error
+{
+    display: none
+}
+
+.quote-save {
+    margin-bottom: 15px !important;
+    height: 34px !important;
+    width: 125px;
+}
+
+.quote-send {
+    width: 125px;
+    height: 34px !important;
+}
+#quoteProducts, #saveSendQuote {
+    overflow: auto;
+    padding-bottom: 2%;
+}
+
+
+/**
+ * Overriding bootstrap css
+ */
+ .mpe-right-inner > input[type=checkbox]:before,input[type=checkbox]:checked:before {
+    font-size: 21px!important;
+    line-height: 21px!important;
+    color: #1e8cbe!important;
+    padding: 0px 0 0 0;
+}
+
+/**
+ * Modal Styling
+ */
+ .wdm-quote-modal label {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.wdm-pdf-modal-content {
+    height: 450px;
+}
+
+.wdm-pdf-iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.wdm-pdf-modal-body {
+    height: 80%;
+}
+
+.wdm-pdf-body {
+    height: 100%;
+}
+
+#Load {
+    visibility: hidden;
+}
+/**
+ * End og modal styling
+ */
+
+/**
+Style Checkbox
+*/
+.wdm-checkbox,
+.wdm-checkbox-quote {
+    /* Hide the input, but have it still be clickable */
+    opacity: 0;
+}
+
+input[type="checkbox"]:disabled {
+    opacity: 0;
+}
+
+.wdm-checkbox + label,
+.wdm-checkbox-quote + label {
+    margin: -18px;
+    clear: none;    /* Left padding makes room for image */
+    padding: 5px 0 4px 24px;    /* Make look clickable because they are */
+    cursor: pointer;
+    background: url('../../images/off.png') left center no-repeat;
+}
+
+.wdm-checkbox:checked + label,
+.wdm-checkbox-quote:checked + label {
+    background-image: url('../../images/check.png');
+}
+/**
+ * End of checkbox styling
+ */
+
+
+/**
+ * Table Styling
+ */
+
+ td {
+    position: relative;    /*padding: 5px 10px;*/
+}
+.quote-product-remove {
+    width: 5%;
+}
+
+.quote-product-image {
+    width: 6%;
+}
+
+.quote-product-title {
+    width: 20%;
+}
+
+.quote-product-variation {
+    width: 23%;
+    text-align: left;
+}
+
+.quote-product-sku {
+    width: 7%;
+}
+
+.quote-product-sale-price, .quote-product-new-price, .quote-product-qty {
+    width: 9%
+}
+
+.quote-product-total {
+    width: 10%;
+}
+
+.wdm-prod-head-img {
+    width: 16px;
+}
+
+.product .product_meta,
+.images {
+    display: none;
+}
+
+.variations select {
+    width: 67%;
+    font-size: 1em !important;
+}
+
+.quoteup-variation-price,
+.quoteup-regular-price,
+.quoteup-price {
+    display: none;
+}
+
+.wdmpe-quotation-table .variation-unchecked-data {
+    display: none;
+}
+
+.admin-quote-table td {
+    padding: 1%;
+}
+
+.admin-quote-table td.label {
+    padding-right: 5%;
+}
+
+.product .single_variation_wrap,
+.single_variation {
+    display: none !important;
+}
+
+td.label, td.value {
+    border: none;
+}
+
+@media only screen and (min-width:550px and max-width:699px) {
+    .wdm-pdf-modal-content {
+        width: 450px;
+        height: 550px;
+    }
+
+}
+
+@media only screen and (min-width:700px and max-width:768px) {
+    .wdm-pdf-modal-content {
+        width: 600px;
+        height: 550px;
+    }
+
+}
+
+@media only screen and (min-width:769px) {
+    .wdm-pdf-modal-content {
+        width: 700px;
+        height: 550px;
+    }
+
+}
+
+/* 
+Max width before this PARTICULAR table gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.
+*/
+@media only screen and (max-width:760px) {
+    .variations_form .label {
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 1%;
+        padding-right: 2%;
+        padding-bottom: 2%;
+        margin-top: 2%;
+        width: 100%;
+        text-align: center;
+        display: inline-block;
+        font-size: 1em;
+    }
+
+    .variations_form .value {
+        border: none;        /*border-bottom: 0px    solid #eee;*/
+        position: relative;
+        padding-left: 1%;
+        padding-right: 2%;
+        padding-bottom: 2%;
+        margin-top: 2%;
+        width: 100%;
+        text-align: center;
+        display: inline-block;
+        font-size: 1em;
+    }
+
+    .variations_form .value a {
+        display: none;
+    }
+}
+
+#mpeSendCustom {
+    display: none;
+}
+
+/* PDF preview CSS */
+#pdf-preview-reload {
+    cursor: pointer;
+}
+
+/* End for PDF preview CSS */

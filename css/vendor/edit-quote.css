@@ -1,0 +1,36 @@
+.quote-send-deadline {
+    margin-right: 2%;
+    margin-top:2.4%;
+    text-align: right;
+}
+
+input.wdm-input-quote-send-deadline {
+    background-color: #fff ;
+    width: 22.1%;
+}
+
+.wdm-input-quote-send-deadline:hover {
+    cursor: pointer;
+}
+
+.item-head-vendor-status,
+.item-content-vendor-status {
+    text-align: center;
+    width: 8%;
+}
+
+.wdmpe-detailtbl .wdmpe-detailtbl-content > tr.vendor-price-not-updated-row {
+    background: antiquewhite;
+}
+
+.quote-options {
+    height: 70px;
+}
+
+.item-head-detail, .item-content-link {
+    text-align: center; 
+}
+
+.wdm-quote-send-deadline {
+    display: inline;
+}

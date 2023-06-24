@@ -1,0 +1,127 @@
+/* 
+Generic Styling, for Desktops/Laptops 
+*/
+
+.generated_for_desktop{
+    display: table;
+    table-layout: fixed;
+}
+
+.generated_for_desktop, .generated_for_mobile{ 
+    width: 100%; 
+    border-collapse: collapse; 
+}
+
+.generated_for_desktop th { 
+    color: black; 
+    font-weight: bold;
+}
+
+.generated_for_desktop td, 
+.generated_for_desktop th,
+.generated_for_mobile td, 
+.generated_for_mobile th  { 
+    padding: 1.618em;
+    display: table-cell;
+    text-align: justify;
+}
+
+.generated_for_desktop td.td-btn-update{
+    text-align: right;
+}
+
+.generated_for_desktop tr:nth-of-type(even), .generated_for_desktop th { 
+    background-color: #f8f8f8;
+}
+
+.generated_for_desktop tr:nth-of-type(odd) {
+    background-color: #fdfdfd;
+}
+
+.generated_for_mobile{
+    display: none;
+}
+
+@media 
+only screen and (max-width: 768px) {
+    .generated_for_mobile{
+        display: table;
+    }
+
+    .generated_for_mobile tr th,  .generated_for_mobile tr td{
+        color: black;
+    }
+
+    .generated_for_mobile tr.odd th,  .generated_for_mobile tr.odd td{
+        background-color: #f8f8f8;
+    }
+
+    .generated_for_mobile tr.even th,  .generated_for_mobile tr.even td{
+        background-color: #fdfdfd;
+    }
+
+    .generated_for_mobile th,  .generated_for_mobile td{
+        border-right: 0px;
+    }
+
+    .generated_for_mobile th:after {
+        content: ':';
+    }
+
+    .quoteup-quote-cart table.generated_for_desktop.cart td,
+    .quoteup-quote-cart table.generated_for_desktop.cart th,
+    .quoteup-quote-cart table.generated_for_mobile.cart td,
+    .quoteup-quote-cart table.generated_for_mobile.cart td {
+        padding: 1.618em;
+    }
+
+    .generated_for_desktop {
+        display: none;
+    }
+
+    .mpe-left.wdm-enquiry-form-label {
+        display: none;
+    }
+
+    .td-btn-update{
+        padding: 1.318em;
+    }
+
+    .update.wdm-update {
+        font-size: 12px !important;
+        width: 70%;
+        height: 100%;
+        padding: 0%;
+        margin-left: 14% !important;
+    }
+
+    .PDFLogo{
+        visibility: hidden;
+        display: none;
+    }
+
+    .from-data, .to-data, .expiration-data {
+        padding-left: 2px !important;
+    }
+
+    .quoteup-quote-cart th.product-remove, .quoteup-quote-cart th.product-thumbnail {
+        display: none;
+    }
+
+    .quoteup-quote-cart table.generated_for_mobile.cart td.product-remove {
+        display: table-cell;
+        padding: 0;
+        width: 251%;
+    }
+
+    table.generated_for_mobile.cart td.product-remove a.remove     {
+        font-size: 1.41575em;
+        position: absolute;
+        right: -0.6180469716em;
+        top: -0.6180469716em;
+    }
+
+    .mpe-right, .quoteup-quote-cart td.product-thumbnail img {
+        width: 100%;
+    }
+}

@@ -1,0 +1,348 @@
+#tab-container,
+#tab-container * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#tab-container .iris-picker,
+#tab-container .iris-picker * {
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+#tab-container {
+    margin-bottom: 10px;
+}
+#ask_product_form fieldset {
+    padding: 0 0.5em 0.5em;
+    margin-bottom:3%;
+}
+
+.nav-tab:hover, .nav-tab:focus {
+    background-color: transparent;
+}
+
+.fd{
+    clear: both;
+    margin: 0.3em 0;
+}
+
+#ask_product_form {
+    margin-top: 22px;
+}
+
+.left_div label {
+    float: left;
+    margin-right: 1em;
+    text-align: left;
+    width: 16em;
+    font-weight: bold;
+}
+
+#ask_product_form fieldset legend {
+    font-weight: bold;
+    margin-bottom: 2%;
+    font-size: 1.3em;
+    color: #354045;
+}
+.clear {
+    clear: both;
+}
+
+
+ul.etabs {
+    border-bottom: 1px solid #ccc;
+    padding-left: 10px;
+    margin-bottom: 0;
+    list-style: none;
+    margin-top: 0;
+}
+ul.etabs:before {
+    content: " ";
+    display: table;
+}
+ul.etabs:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+.tab {
+    border: none;
+    background: none;
+    color: inherit;
+    font-size: inherit;
+    line-height: normal;
+    padding: 0;
+    margin: 0;
+    float: left;
+    margin-bottom: -1px;
+    position: relative;
+    display: block;
+}
+.tab a {
+    color: #555;
+    background: #e5e5e5;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    margin-right: 8px;
+    text-decoration: none;
+    line-height: 1.42857143;
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    -webkit-transition: all 0.5s; /* Safari */
+    transition: all 0.5s;
+}
+
+.nav-tab:hover {
+    background-color: none;
+    color: inherit;
+}
+
+.tab a:hover,
+.tab a.active {
+    color: #961914;
+    -webkit-box-shadow: 0 0 0 0 transparent,0 0 0 0 transparent;
+    box-shadow: 0 0 0 0 transparent,0 0 0 0 transparent;
+    outline: none;
+}
+.tab a:hover {
+    background-color: #fff;
+    border-color: #ccc;
+    color: #464646;
+}
+
+.tab a.active {
+    color: #000;
+    border-bottom-color: transparent;
+    background:#F1F1F1;
+}
+.tab-container .panel-container {
+    background: #fff;
+    border: solid #666 1px;
+    padding: 10px;
+    -moz-border-radius: 0 4px 4px 4px;
+    -webkit-border-radius: 0 4px 4px 4px;
+}
+
+#wdm_general, #wdm_email, #wdm_display, #wdm_quote, #wdm_mini_cart, #wdm_form, #wdm_other_extensions, #wdm_privacy, #wdm_vendor
+{
+    margin-top: 20px
+}
+.nav-tab
+{
+    margin:-4px -2px -1px 0;
+}
+
+.wdm-migrate-loader-wrap {
+    display: none;
+    opacity: 0;
+}
+
+.wdm-migrate-loader {
+    vertical-align: middle;
+}
+
+.wdm-migrate-txt {
+    opacity: 1;
+}
+
+.wdm_wpi_text {
+    width: 45%;
+}
+
+.wdm_wpi_number {
+    width: 10%;
+}
+
+#ask_product_form select {
+    width: 45%;
+}
+
+.email_error{
+    color:#800000
+}
+
+.left_div{
+    width:28%;
+    float:left
+}
+
+.right_div {
+    width:72%;
+    float:left
+}
+
+.clear {
+    clear:both
+}
+
+.checkbox-coll {
+    margin-bottom: 1%;
+}
+
+/* Help link CSS */
+.help-doc-link-checkbox {
+    width: auto;
+}
+
+.help-doc-link-textbox {
+    width: 36%;
+}
+
+.help-doc-link-textbox input {
+    width: 92%;
+}
+
+.help-doc-link-upload-field {
+    width: 45%;
+}
+
+.help-doc-link-upload-field input {
+    width: 72%;
+}
+
+.help-doc-link-textbox + .help-doc-link a, .help-doc-link-upload-field + .help-doc-link a {
+    vertical-align: sub;
+}
+
+.help-doc-link.legend-wrapper {
+    display: inline-block;
+}
+
+.help-doc-link.legend-wrapper a {
+    display: block;
+    margin-left: 20%;
+}
+
+.help-doc-link {
+    display: inline;
+}
+
+.help-doc-link.enq-btn-shortcode-link {
+    display: block;
+    margin: 1%;
+}
+
+.help-doc-link a {
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 1%;
+}
+/* End of Help link CSS */
+
+.fd{
+    width:100%;
+    padding-top:10px;
+    margin-bottom: 2%;
+}
+
+.input-without-tip{
+    margin-left: 20px !important;
+}
+
+.wdm-media-upload-button{
+    margin-left: 1% !important; 
+}
+
+#save_notice{
+    margin-left: 1.1%;
+}
+
+.new_page_link{
+    font-size: 11px;
+    font-style: italic;
+}
+
+.textarea-wrapper .woocommerce-help-tip, 
+.anonymize-form-fields-fieldset .woocommerce-help-tip {
+    vertical-align: top;
+}
+
+.wdm-accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    border-bottom: 1px solid #bbb;
+    margin: 0;
+}
+
+.wdm-accordion.active, .wdm-accordion:hover {
+    background-color: #ccc; 
+}
+
+.wdm-accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.wdm-accordion.active:after {
+    content: "\2212";
+}
+
+.wdm-accordion-panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
+
+.overlay-parent {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(89, 86, 86, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #fff
+}
+.auto_sender {
+    margin-top: 20px;
+}
+.subject_div, .header_div {
+    margin-bottom: 20px;
+    display: flex;
+}
+.email_subject_label, .email_header_label, .email_body_label {
+    font-weight: 600;
+    width: 20%;
+    font-size: 15px;
+}
+.subject_div input, .header_div input{
+    width: 80%;
+    line-height: 25px;
+}
+#auto_sender {
+    margin-top: 20px;
+}
+
+/** Start of Setup Wizard CSS **/
+.quoteup-setup-wizard-help-tip a img {
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    width: 30px;
+}
+
+.quoteup-setup-wizard-help-tip a img:hover {
+    animation: spin 4s linear infinite;
+}
+/** End of Start of Setup Wizard CSS **/

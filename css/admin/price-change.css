@@ -1,0 +1,15 @@
+.no-cost-change {
+    display: none;
+}
+
+.item-content-og-cost, .quote-final-og-total, .product-total-og-price {
+    color: gray;
+}
+
+.percentage-diff.negative-cost-change {
+    color: #a73232;
+}
+
+.percentage-diff.positive-cost-change {
+    color: green;
+}

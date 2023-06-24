@@ -1,0 +1,77 @@
+.productLoad {
+    display: none;
+    background:url('../../images/spinner.gif');
+    width:20px;
+    height: 20px;
+    margin-top: 1%;
+}
+
+.productLoad.loading{
+    display:inline-block;
+    vertical-align: middle;
+}
+
+.select2-container .select2-input.select2-default {
+    font-size: 15px !important;
+}
+
+.wrap .select2-container-multi {
+    float: left;
+    margin-right: 1%;
+}
+
+.quoteup-add-products-button {
+    padding: 5px;
+}
+
+.quote-products-selection {
+    width: 60%;
+    float: left;
+    margin-bottom: 25px;
+}
+
+.quote-related-options {
+    margin-top: 2%;
+    padding-top: 1%;
+}
+
+.show-price-option {
+    float: left !important;
+    width: 50% !important;
+    height: 30px;
+}
+.quote-expiration-date {
+    margin-top: 1%;    
+}
+.quote-expiration-date,.wpml-language-options {
+    float: right;
+    width: 35%;
+    text-align: right;
+    margin-right: 2%;
+}
+
+.wdm-input-expiration-date {
+    height: 26px;
+    width: 62%;
+    background-color: #fff !important;
+}
+
+.quote-product-remove .remove {
+    display: block;
+    font-size: 1.5em;
+    height: 1em;
+    width: 1em;
+    text-align: center;
+    line-height: 1;
+    border-radius: 100%;
+    color: red!important;
+    text-decoration: none;
+    font-weight: 700;
+    border: 0;
+    box-shadow: 0 1px 0 0 currentColor;
+}
+
+.quote-product-remove .remove:hover {
+    color: #fff!important;
+    background: red;
+}

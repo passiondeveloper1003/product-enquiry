@@ -1,0 +1,17 @@
+img[src*="product-enquiry-pro/images/pep.png"] {
+    padding: 0px !important;
+    opacity: 1 !important;
+}
+
+.pep-update-dot {
+    height: 5px;
+    width: 5px;
+    background-color: #cc2e2e;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 0 2px 5px;
+}
+
+#adminmenu .wp-not-current-submenu.wp-has-current-submenu.toplevel_page_quoteup-details-new .wp-submenu {
+    border: 0;
+}

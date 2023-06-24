@@ -1,0 +1,51 @@
+table {
+    width: 100%;
+}
+
+.product-name-head, .product-name {
+    text-align: left;
+    width: 20%;
+    word-wrap: break-word;
+}
+
+
+.sku-head, .sku {
+    text-align: left;
+    width: 10%;
+    word-wrap: break-word;
+}
+
+.qty-head, .qty {
+    width: 15%;
+    text-align: center;
+}
+
+.price {
+    width: 15%;
+    text-align: center;
+}
+
+.price-head {
+    width: 15%;
+    text-align: center;
+}
+
+.mail-total {
+    text-align: center;
+}
+
+.remarks-head, .remarks {
+    width: 40%;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.price-message {
+    font-size: 12px;
+}
+@media screen and (max-width:480px){
+    .wdm-enquiry-table{
+        min-width: 700px;
+        overflow: auto;
+    }
+}

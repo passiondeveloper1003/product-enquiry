@@ -1,0 +1,7 @@
+th#status, th#product_details, th#enquiry_date, th#total  {
+    width: auto;
+}
+
+th#email {
+    width: 20%;
+}

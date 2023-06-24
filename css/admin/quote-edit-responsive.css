@@ -1,0 +1,353 @@
+
+@media screen and (max-width:760px) and (min-width:320px){
+	table.admin-quote-table tfoot{
+		display:block;
+	}
+	.quote-expiration-date {
+    /*width: 38% !important;*/
+    float: none!important;
+    width: 100%!important;
+    text-align: center!important;
+  }
+  .quote-expiration-date .wdm-user-expiration-date{
+    width: 100%;
+  }
+  .quote-expiration-date .left-label {
+    float: none;
+    width: 100%;
+    margin-left: 0;
+  }
+  .wpml-language-options{
+    float: right;
+    width: 100%;
+    margin-right:0;
+    text-align:center;
+  }
+  .quote-language{
+    margin-left:0;
+    float:none;
+  }
+  .wdm-input-expiration-date{
+  	width: 75% !important;
+  }
+  .wdmpe-detailtbl td.item-content-newcost, .wdmpe-detailtbl td.item-content-qty{
+    padding-left: 45%;
+  }
+  .inside{
+    padding: 0 12px 12px !important;
+  }
+  .wrap{
+    margin:0 !important;
+  }
+  #s2id_autogen1{
+   width: 100% !important;
+   margin-bottom: 10px;
+ }
+ .quotation-related-buttons{
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+}
+#downloadPDF,#showEnquiry{
+  display: block !important;
+  width: 52% !important;
+  margin: 0 auto;
+  padding: 6px 5px 6px 5px !important;
+  margin-bottom: 10px;
+}
+#btnPQuote{
+  margin: 10px auto;
+  width: 52% !important;
+  padding: 6px 5px 6px 5px !important;
+}
+#send.button{
+  width: 52% !important;
+  margin: 0 auto;
+  padding: 6px 5px 6px 5px !important;
+  margin-bottom: 10px;
+}
+
+#send.button.wdm-send{
+  display: block !important;
+}
+.quote-options{
+ height: 40px;
+ border-bottom:none;
+ border-top:none;
+}
+.show-hide-details{
+  float:none;
+}
+.show-price-option{
+ width:100% !important;
+}
+.quote-products-selection button.quoteup-add-products-button{
+  display: block;
+  margin: 0 auto; 
+}
+.quote-products-selection{
+ width: 100% !important;
+ margin-top: 18px;
+ margin-left: 0;
+ float:none;
+}
+td.history-message{
+ padding-bottom: 30px;
+}
+
+    /*.enquiry-history-table td::before{
+    	float:left;
+    	width: 0;
+    }
+    .enquiry-history-table td{
+    	display: block;
+    	text-align: right;
+    	width: 100%;
+    	padding: 0;
+    	min-height: 40px;
+
+      }*/
+      .enquiry-versions thead{
+       display:none;
+     }
+     .enquiry-versions tr.wdm-version-heading{
+       display:none;
+     }
+     .wdm-versionnum-row{
+       display: block !important;
+     }
+     .wdm-versionnum-row td{
+       display: block;
+       width: 100%;
+       text-align: right;
+       border:1px solid #eee;
+       padding: 0px 0px 0px 4px;
+     }
+     .wdm-versionnum-row td.version-number{
+      background-color: #A9A9A9;
+      color:#fff;
+    }
+    .wdm-versionnum-row td p{
+      display: inline-block;
+      width: 33%;
+      text-align: left;
+    }
+    .wdm-versionnum-row td::before{
+      content: attr(data-title) " ";
+      float: left;
+      font-weight: bold;
+      padding: 12px 0 0 6px;
+    }
+    td.version-product-details{
+    	display: block;
+    	padding:0;
+    }
+    .version-product-details table.version-details,.version-product-details table.version-details tr,.version-product-details table.version-details tbody{
+    	width: 100%;
+    	display: block;
+    }
+    .version-product-details table.version-details,.version-product-details table.version-details td{
+    	display: block;
+    	width: 100%;
+    	text-align: right;
+    }
+    #postbox-container-1 .remarks-table{
+      width: 100%;
+      border:1px solid #ccc; 
+    }
+    #postbox-container-1 .remarks-table thead{
+      display: none;
+    }
+    #postbox-container-1 .remarks-table tbody tr{
+      display: block;
+      min-height: 65px;
+    }
+    #postbox-container-1 .remarks-table tbody tr:not(:last-child){
+      border-bottom: 1px solid #ccc;
+    }
+    #postbox-container-1 .remarks-table tbody td{
+      display: block;
+      text-align: right;
+      width: 100%;
+      min-height: 25px;
+    } 
+    #postbox-container-1 .remarks-table tbody td p{
+      margin: 5px 12px 0 0;
+    }
+    #postbox-container-1 .remarks-table tbody td::before{
+      content: attr(data-title) " ";
+      float: left;
+      font-weight: bold;
+      padding: 5px 0 0 2px;
+    }
+    .send-button{
+     display:block;
+     margin: 0 auto;
+   }
+ }
+ @media screen and (max-width:350px){
+  .show-hide-details #showEnquiry{
+    padding: 6px 10px;
+    /*font-size: 12px;*/
+  }
+  .wdm-versionnum-row td p {
+    margin-right: 48px;
+  }
+  #btnPQuote {
+    width: 52% !important;
+    /*font-size: 12px;*/
+  }
+  .quoteup-pdf-language{
+    max-width: 49% !important;
+    font-size: 15px !important;
+  }
+  #downloadPDF{
+    margin-left: 66px;
+  }
+}
+@media screen and (max-width:424px){
+  .wdm-versionnum-row td p {
+    margin-right: 30px;
+  }
+  #btnPQuote{
+   width: 45%;
+ }
+}
+@media screen and (max-width:560px){
+  .wdm-tbl-gen-detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .wdm-tbl-gen-detail div{
+    width: 100%;
+  }
+  .wdm-tbl-gen-detail input.wdm-input{
+    width: 100%;
+  }
+
+  table.version-details td.version-product-name div{
+    margin-right: 76px;
+  }
+}
+@media screen and (max-width:700px) and (min-width: 561px){
+  table.version-details td.version-product-name div{
+    margin-right: 122px;
+  }
+}
+@media screen and (max-width:760px) and (min-width: 701px){
+  table.version-details td.version-product-name div{
+    margin-right: 167px;
+  }
+}
+
+@media screen and (max-width:782px){
+	.quote-products-selection{
+    margin-top:12px;
+  }
+
+  .quote-products-selection button.quoteup-add-products-button{
+  	margin-top: 8px;
+  }
+
+  #postbox-container-1 .remarks-table{
+    width: 100%;
+    border:1px solid #ccc; 
+  }
+  #postbox-container-1 .remarks-table thead{
+    display: none;
+  }
+  #postbox-container-1 .remarks-table tbody tr{  
+    display: block;
+    min-height: 65px;
+  }
+  #postbox-container-1 .remarks-table tbody tr:not(:last-child){
+    border-bottom: 1px solid #ccc;
+  }
+  #postbox-container-1 .remarks-table tbody td{
+    display: block;
+    text-align: right;
+    width: 98%;
+    min-height: 25px;
+  } 
+  #postbox-container-1 .remarks-table tbody td p{
+    margin: 5px 12px 0 0;
+  }
+  #postbox-container-1 .remarks-table tbody td::before{
+    content: attr(data-title) " ";
+    float: left;
+    font-weight: bold;
+    padding: 5px 0 0 2px;
+  }
+}
+@media screen and (max-width:828px) and (min-width:783px){
+  .quote-products-selection{
+  	margin-top:13px;
+  	width: 50%!important;
+  }
+  .quote-products-selection button.quoteup-add-products-button{
+  	margin-top: 8px;
+  }
+}
+
+@media screen and (max-width:1023px) and (min-width:783px){   /* for enquiry table */
+ #postbox-container-1 .remarks-table{
+  width: 100%;
+  border:1px solid #ccc;
+}
+#postbox-container-1 .remarks-table td{
+  text-align: center;
+}
+#postbox-container-1 .remarks-table th{
+  width: 50%;
+}
+}
+@media screen and (max-width:1199px) and (min-width:1024px){
+  #postbox-container-1 .remarks-table{
+    width: 100%;
+    border:1px solid #ccc;
+  }
+  #postbox-container-1 .remarks-table td{
+    text-align: center;
+  }
+  #postbox-container-1 .remarks-table th{
+    width: 50%;
+  }
+}
+@media screen and (min-width:1200px){
+ #postbox-container-1 .remarks-table{
+  width: 100%;
+  /*border:1px solid #ccc;*/
+}
+#postbox-container-1 .remarks-table td{
+  text-align: left;
+  padding-left: 2%;
+  border: 1px solid rgba(0,0,0,.1);
+}
+
+#postbox-container-1 .remarks-table td.remarks-content{
+  text-align: justify;
+}
+
+#postbox-container-1 .remarks-table th.product-name-head{
+  width: 30%;
+  padding: 1%;
+}
+
+#postbox-container-1 .remarks-table th.remarks-head{
+  width: 70%;
+  padding: 1%;
+}
+
+#postbox-container-1 .remarks-table th.product-name-head, #postbox-container-1 .remarks-table th.remarks-head {
+  border: 1px solid rgba(0,0,0,.1);
+  padding-left: 2%;
+  text-align: left;
+}
+
+#postbox-container-1 .remarks-table tr:nth-child(even) {
+  background: #F9F9F9;
+}
+
+}
+

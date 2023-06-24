@@ -1,0 +1,4 @@
+Caching Guide =>
+
+1. Whilelist ‘quoteup_wp_session’ cookie.
+2. Whitelist ‘enquiry cart’ page (if multi-product enquiry is enabled) and ‘quote approval rejection page’ (if Quotation is enabled).

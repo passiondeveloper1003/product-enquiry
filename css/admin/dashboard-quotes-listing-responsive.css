@@ -1,0 +1,41 @@
+@media screen and (max-width: 782px)
+{
+    .wp-list-table tr.is-expanded:not(.inline-edit-row):not(.no-items) td.column-primary~td:not(.check-column) {
+        display: block !important;
+        right: 50%;
+        width: 140% !important;
+        text-align: left;
+        padding-left: 0px;
+        overflow: auto;
+        white-space: nowrap;
+    }
+
+
+    .is-expanded .column-product_details::before,
+    .is-expanded .column-status::before,
+    .is-expanded .column-name::before,
+    .is-expanded .column-email::before,
+    .is-expanded .column-enquiry_date::before,
+    .is-expanded .column-message::before,
+    .is-expanded .column-amount::before,
+    .is-expanded .column-order_number::before {
+        display: inline-block !important;
+        overflow: hidden !important;
+        width: 50% !important;
+        content: attr(data-colname) !important;
+        white-space: nowrap !important;
+        text-overflow: ellipsis !important;
+        text-align: left !important;
+        float: left !important;
+        position: relative !important;
+    }
+
+    .status-image {
+        display: none;
+    }
+
+    .status-span {
+        display: block;
+    }
+
+}

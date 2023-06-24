@@ -1,0 +1,62 @@
+/* CSS for Search Paramter dropdown field */
+.quoteup_enq_search_param {
+    float: right;
+    margin-right: 6px;
+}
+/* End of CSS for Search Paramter dropdown field */
+
+td#cb{
+    width: 5%;
+}
+th#enquiry_id
+{
+	width: 8%;
+}
+th#status{
+    width: 7%;   
+}
+th#name{
+	width: 15%;
+}
+
+th#email{
+	width: 17%;
+}
+
+th#enquiry_date{
+    width: 10%;
+}
+
+th#message{
+    width: 23%;
+}
+
+.message{
+    text-align: justify;
+}
+
+th#order_number{
+    width: 8%;
+}
+
+th#product_details{
+    width: 8%;
+}
+
+th#amount{
+    width: 8%;
+}
+
+.status-span {
+    display: none;
+}
+
+.woocommerce .search-box {
+    margin: -8px 0 0;
+}
+
+.unread-enquiry {
+    background-color: #ECECEC !important;    
+}
+
+

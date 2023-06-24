@@ -1,0 +1,11 @@
+.wdm-default-form.wdm-spe-form .mc-subscription-field-wrapper {
+    margin-bottom: 15px;
+}
+
+.mc-subscription-field-wrapper label {
+    font-weight: normal;
+}
+
+input[type=checkbox].quoteup-mc-subscription-checkbox {
+    margin: 0 5px 0 0;
+}

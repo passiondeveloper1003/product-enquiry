@@ -1,0 +1,34 @@
+<wpml-config>
+    <custom-fields>
+        <custom-field action="copy">_enable_pep</custom-field>
+        <custom-field action="copy">_enable_price</custom-field>
+        <custom-field action="copy">_enable_add_to_cart</custom-field>
+    </custom-fields>
+    <admin-texts>
+    <key name="wdm_form_data">
+      <key name="cart_custom_label"/>
+      <key name="ret_to_shop_btn_label"/>
+      <key name="ret_to_shop_btn_url"/>
+      <key name="expected_price_remarks_label"/>
+      <key name="expected_price_remarks_col_phdr"/>
+      <key name="redirect_user"/>
+      <key name="custom_label"/>
+      <key name="replace_enquiry"/>
+      <key name="default_sub"/>
+      <key name="company_name"/>
+      <key name="company_address"/>
+      <key name="quote_pdf_email_footer_text"/>
+      <key name="approve_custom_label"/>
+      <key name="reject_custom_label"/>
+      <key name="reject_message"/>
+      <key name="replace_quote"/>
+      <key name="custom_formId"/>
+      <key name="date_field_label"/>
+      <key name="attach_field_label"/>
+      <key name="mc_subs_text"/>
+      <key name="google_captcha_err_msg"/>
+      <key name="enquiry_privacy_policy_text"/>
+      <key name="cookie_consent_text"/>
+    </key>
+  </admin-texts>
+</wpml-config>

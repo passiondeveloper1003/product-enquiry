@@ -1,0 +1,24 @@
+.ast-separate-container article.ast-article-single {
+    padding: 5.34em 2.67em;
+}
+
+.woocommerce table.shop_table.generated_for_desktop .product-thumbnail img {
+    max-width: 100%;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .quoteup-quote-cart table.generated_for_mobile.cart td.product-remove {
+        min-height: 3em;
+        padding: .7em 1em;
+        text-align: right;
+        vertical-align: middle;
+    }
+
+    table.generated_for_mobile.shop_table td.product-remove a.remove {
+        display: inline-block;
+        height: 24px;
+        position: static;
+        width: 24px;
+    }
+}

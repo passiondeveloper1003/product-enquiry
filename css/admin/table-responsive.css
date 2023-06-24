@@ -1,0 +1,192 @@
+@media screen and (max-width:637px) and (min-width: 320px){
+	table#Quotation{
+	display: block;
+    width: 100%;
+  }
+	#Quotation thead.wdm-quote-head{
+		display: none;
+	}
+
+	tr.quoteup-no-product{
+		display: block;
+        width: 100%;
+   }
+
+   tr.quoteup-no-product td{
+   	text-align: center;
+    display: block;
+   }
+   #Quotation tfoot{
+   	 display: block;
+     width: 100%;
+   }
+   table#Quotation tfoot tr,table#Quotation tfoot td{
+   	 display: block;
+     text-align: center;
+   	}
+	.wdm-quote-row{
+		
+		width: 100% !important;
+    }
+    tbody.wdmpe-detailtbl-content{     
+    	/*display: flex;*/
+      display: block;
+    }
+    tr.wdmpe-detailtbl-content-row.quotetbl-content-row.wdm-quote-row{
+      display: block;
+    }
+    .quote-product-remove a.remove{
+    	margin: 10px 0 10px 15px;
+      display: inline-block;
+    }
+    .wdm-quote-row td{
+    	display: block;
+    	text-align: right;
+    	width: 100%;
+    	padding: 0;
+    	min-height: 50px;
+
+    }
+    .wdm-quote-row td.quote-product-remove{
+      text-align:center;
+    }
+    .wdm-quote-row td p{
+      display: inline-block;
+      width: 33%;
+      text-align: left;
+    }
+    td.item-content-img{
+    	display: none;
+    }
+    .wdm-quote-row td::before{
+	    content: attr(data-title) " ";
+	    float: left;
+	    font-weight: bold;
+	    padding: 14px 0 0 5px;
+    }
+
+    table.variations td.value,td.label{
+        text-align: right !important;
+    }
+    .quote-products-selection{
+      width: 100%!important;
+    float: none!important; 
+    margin-bottom: 25px;
+    margin: 0 auto;
+    }
+    .wrap{
+        margin:0 !important;
+    }
+    #s2id_autogen1{
+       width: 100% !important;
+       margin-bottom: 10px;
+    }
+    .quote-products-selection .quoteup-add-products-button{
+    	margin-top: 10px;
+      display: block;
+      margin: 0 auto
+    }
+    .show-price-option label{
+    	display: block;
+     /* width: 65%;*/
+      padding: 0 0 0 22px;
+   	}
+     .quote-expiration-date {
+      float: none!important; 
+      width: 100%!important;
+      text-align: center!important;
+    }
+    .wdm-input-expiration-date{
+      width: 80%!important  ;
+    }
+    .wdm-input-expiration-date{
+      font-size: 13px; 
+    }
+
+    .select2-container #s2id_autogen2{
+    font-size:12px!important;
+    width: 100% !important;
+  }
+
+  table.variations{
+    display: inline-block;
+    margin-right: 25px;
+  }
+   table.variations td{
+    min-height: 0;
+   }
+  table.variations td.label{
+    border-bottom: none;
+  }
+  .wdm-enquiry-form{
+    width:100% !important;
+  }
+  #frm_dashboaard_quote .mpe-left.wdm-enquiry-form-label{
+    float: none;
+    display: block;
+    width: 100%;
+    margin-bottom: 9px;
+  }
+  .form_input.btn_div{
+    float: none;
+   }
+   #frm_dashboaard_quote .mpe-right{
+    width: 100%;
+   }
+   .quote-related-options .show-price-option{
+      margin-left: 20px;
+      width: 90% !important;
+   }
+   .form_input #btnQuoteSave{
+      padding: 0;
+      margin: 0 0 0 14px;
+   }
+   .quote-product-new-price .wdm-prod-price {
+    width: 4em;
+  }
+  .form_input #btnQuoteSend{
+    margin: 0 0 0 14px;
+   }
+}
+@media screen and (max-width:782px) and (min-width:638px) {
+   .quote-products-selection .quoteup-add-products-button{
+      margin-top: 10px;
+    }
+   .quote-products-selection{
+    width:54% !important;
+   }
+    .quote-expiration-date {
+    width: 40% !important;
+    }
+    .wdm-input-expiration-date{
+      width: 55%!important  ;
+    }
+    .variations select {
+     width: 90%; 
+  }
+  .mpe-left.wdm-enquiry-form-label{
+    transform: translateY(0);
+  }
+  .form_input #btnQuoteSave{
+      padding: 0;
+      
+   }
+}
+@media screen and (max-width:878px) and (min-width:783px) {
+ .quote-products-selection {
+    width: 51% !important;
+ }
+ .quote-expiration-date {
+    width: 40% !important;
+    }
+    .quote-products-selection .quoteup-add-products-button{
+      margin-top: 10px;
+    }
+}
+@media screen and (max-width:1137px) and (min-width:783px) {
+  .mpe-left.wdm-enquiry-form-label{
+    transform: translateY(0%);
+  }
+}
+
+

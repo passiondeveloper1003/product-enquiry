@@ -1,0 +1,26 @@
+#quoteup_sidebar_feedback_wrapper {
+    bottom: 50%;
+    position: fixed;
+    right: 0;
+    transform: rotate(270deg);
+    transform-origin: 100% 100%;
+    z-index: 999;
+}
+
+#quoteup_sidebar_feedback_wrapper .quoteup_feedback_link {
+    background-color: #961a1d;
+    border: solid 1px #961a1d; 
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    display: block;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+#quoteup_sidebar_feedback_wrapper .quoteup_feedback_link:hover {
+    background-color: white;
+    color: #961a1d;
+}

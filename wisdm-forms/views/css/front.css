@@ -1,0 +1,17 @@
+.w3eden .form-group label.error{
+    color: #A94442 !important;
+}
+
+.w3eden label.error{
+    font-weight: 300 !important;
+    font-size: 12px !important;
+}
+.w3eden .form-control{
+    box-shadow: none !important;
+    border-radius: 2px;
+}
+
+.field-note {
+    font-size: 12px;
+    font-weight: 600;
+}

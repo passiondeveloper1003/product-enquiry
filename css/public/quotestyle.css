@@ -1,0 +1,286 @@
+body woocomerce-account ul li.woocommerce-MyAccount-navigation-link--quote a:before{ 
+    content: "\f10d"
+}
+
+.Quotescontent{
+    width:100%;
+}
+
+.Quotestitle{
+    display:inline-block;
+    width:48%;
+}
+
+.formvalue{
+    width:100%;
+}
+.formvalue input{
+    width:100%;
+}
+
+.formwrapinner{
+    position: relative;
+}
+.forminput{
+    margin-bottom: 15px;
+}
+.wdm-modal-body > .wdm-remark-form textarea.wdm-modal_textarea,
+.mpe_form_input > .mpe-right > .mpe-right-inner > textarea,
+.mpe_form_input > .mpe-right >.mpe-right-inner > input[type=text],
+.form_input > .form-wrap > .form-wrap-inner > textarea,
+.form_input > .form-wrap > .form-wrap-inner > input[type=text] {
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    color: #555;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    margin: 0;
+    width: 100%;
+}
+.footer-row{
+    border-top:1px solid lightgrey;
+}
+
+.modal{
+    max-width: 750px!important;
+}
+
+.quotetable{
+    max-width: 100%;
+  /*border:1px solid lightgrey;*/
+}
+.table-head{
+    border-bottom: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+}
+.wdm-modal-body{
+    height:400px;
+    overflow-y: auto;
+}
+
+.price{
+    text-align: right !important;
+}
+
+.quoteup-total-amount.old-amount, .quoteup-total-amount.new-amount, .quoteup-grand-total.old-total, .quoteup-grand-total.new-total {
+    display: inline-block;
+}
+
+/* Price change/ difference handling CSS */
+.amount-change-percentage.positive-percent {
+    color: green;
+}
+
+.amount-change-percentage.negative-percent {
+    color: #a73232;
+}
+/* End of price change/ difference handling CSS */
+
+#amt{
+    text-align: right !important;
+}
+
+.qdetails{
+    font-weight:bold;
+}
+
+.wrapper{
+    margin: 60px auto;
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 1.25em;
+}
+#pagination-demo{
+    display: inline-block;
+    margin-bottom: 1.75em;
+}
+#pagination-demo li{
+    display: inline-block;
+}
+
+.page-content{
+    background: #eee;
+    display: inline-block;
+    padding: 10px;
+    width: 100%;
+    max-width: 660px;
+}
+
+.texpand{
+    width:150px;
+}
+
+.qtime{
+    font-size: 13px;
+}
+
+.product-detail thead tr th, .status-detail thead tr th{
+    text-align: center !important;
+    /*background-color:inherit;*/
+    color:#6d6d6d;
+}
+
+.prodtitle{
+    text-align: center !important;
+}
+
+.quote-user-table tbody tr:nth-child(even) td {
+    background: #f7f7f7 !important;
+ 
+}
+
+.quote-user-table tbody tr:nth-child(odd) td {
+    background: #FFF !important;
+}
+
+.linkdiv {
+    padding-bottom:2%;
+}
+
+@media screen and (max-width: 782px){
+    .quote-user-table tbody tr:nth-child(even) td {
+        background: #CCC !important;
+    }
+
+    .proddata{
+        text-align: left;
+    }
+
+    .quote-user-table tbody tr:nth-child(odd) td {
+        background: #f7f7f7 !important;
+    }
+
+    .modal{
+        width:100%;
+        padding:5px;
+    }
+
+    .wdm-modal-body{
+        padding:0px;
+    }
+
+    .qdetail{
+        padding:0px;
+        margin:0px;
+    }
+
+    .footer-row{
+        width:50% !important;
+        display: inline-block !important;
+    
+    }
+    .footer-row:nth-of-type(2){
+        float:right;
+    }
+    .footer-row:before{
+        content: attr(data-title) "" !important;
+    }
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 400px){
+    table.shop_table_responsive tr td:before{
+        width:80px;
+        /*overflow: -webkit-paged-y;*/
+    }
+
+    .quote-user-table tbody tr td {
+        overflow: auto;
+    }
+}
+
+/* 
+Max width before this PARTICULAR table gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.
+*/
+
+@media 
+only screen and (max-width:760px) {
+   /**
+     * ***************************************************************************
+     * ***************************************************************************
+     * Enquiry History Table
+     * ***************************************************************************
+     * ***************************************************************************
+     */
+    .enquiry-history-table,
+    .enquiry-history-table tbody,
+    .enquiry-history-table th,
+    .enquiry-history-table td,
+    .enquiry-history-table tr {
+        display: block;
+    }
+
+    .enquiry-history-table {
+        padding: 0px;
+    }
+
+    .enquiry-history-table thead {
+        display: none;
+    }
+
+    .enquiry-history-table tr {
+        border: 1px solid #ccc;
+    }
+
+    .enquiry-history-table tr:nth-child(even) {
+        background-color: rgba(0, 185, 235, 0.02);
+    }
+
+    .enquiry-history-table td {
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+        padding-right: 2%;
+        padding-bottom: 2%;
+        margin-top: 2%;
+        width: 48%;
+    }
+
+    .enquiry-history-table td:before {
+        /* Now like a table.enquiry-history-table header */
+        position: absolute;
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+        font-weight: bold;
+    }
+
+    .enquiry-history-table td:nth-of-type(1):before {
+        content: "Date and Time:";
+    }
+
+    .enquiry-history-table td:nth-of-type(2):before {
+        content: "Action:";
+    }
+
+    .enquiry-history-table td:nth-of-type(3):before {
+        content: "Performed by:";
+    }
+
+    .enquiry-history-table td:nth-of-type(4):before {
+        content: "Message:";
+    }
+
+}
+
+.enquiry-history-table th {
+    border-bottom: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+}
